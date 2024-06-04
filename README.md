@@ -27,4 +27,4 @@ R, versão 4.3.3, sob a IDE RStudio
 
 ### Sistema Operacional
 
-macOS Sonoma 14.5, com Processador M3 Max e 36GB RAM
+macOS Sonoma 14.5, com Processador M3 Max 14 núcleos e 36GB RAM
