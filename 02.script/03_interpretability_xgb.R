@@ -29,7 +29,7 @@ srag1621 <- readRDS("01.data/srag_16-21_[all].rds")
 # Data manipulation -------------------------------------------------------
 
 d_srag <- srag1621 |> 
-  # undefinied cases = na
+  # undefined cases = na
   mutate(class_caso = as.factor(if_else(class_caso == "Unspecified etiological agent", NA_character_, class_caso))) |> 
   dplyr::select(
     class_gest_puerp, nu_idade_n, raca, escolaridade, vacina,

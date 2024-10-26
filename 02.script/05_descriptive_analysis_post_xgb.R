@@ -31,13 +31,8 @@ srag1621_pred <- readRDS("01.dados/srag_16-21_[pred].rds")
 ## Real dataset of SARS ####
 d_srag_real <- srag1621 |> 
   mutate(
-    # undefinied cases = na
-    class_caso = as.factor(
-      if_else(class_caso == "Unspecified etiological agent", NA_character_, class_caso)
-    ),
-    # covid-19 = confirmed covid-19
+    class_caso = as.factor(if_else(class_caso == "Unspecified etiological agent", NA_character_, class_caso)), #undefined cases = na
     class_caso = fct_recode(as.factor(class_caso), "COVID-19r"="COVID-19"),
-    # other agents = other confirmed agents
     class_caso = fct_recode(class_caso, "Other confirmed agentsr"="Other confirmed agents")
   ) |>
   rename(class_caso_real_pred = class_caso) |> 
@@ -63,9 +58,7 @@ d_srag_real <- d_srag_real |>
 ## Predicted dataset of SARS ####
 d_srag_pred <- srag1621_pred |> 
   mutate(
-    # covid-19 = predicted covid-19
     class_caso_pred = fct_recode(class_caso_pred, "COVID-19p"="COVID-19"),
-    # other agents = other predicted agents
     class_caso_pred = fct_recode(class_caso_pred, "Other confirmed agentsp"="Other confirmed agents")
   ) |> 
   rename(class_caso_real_pred = class_caso_pred) |> 

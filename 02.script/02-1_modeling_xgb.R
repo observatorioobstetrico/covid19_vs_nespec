@@ -28,7 +28,7 @@ srag1621 <- readRDS("01.data/srag_16-21_[all].rds")
 
 ## Dataset of defined cases ####
 d_srag_def <- srag1621 |> 
-  # undefinied cases = na
+  # undefined cases = na
   mutate(class_caso = as.factor(if_else(class_caso == "Unspecified etiological agent", NA_character_, class_caso))) |>
   dplyr::select(
     sg_uf, class_gest_puerp, nu_idade_n, raca, escolaridade, vacina,
