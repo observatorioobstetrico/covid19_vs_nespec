@@ -20,10 +20,10 @@ library(gtsummary)
 # Data import -------------------------------------------------------------
 
 # confirmed sars
-srag1621 <- readRDS("01.dados/srag_16-21_[all].rds")
+srag1621 <- readRDS("01.data/srag_16-21_[all].rds")
 
 # predicted sars
-srag1621_pred <- readRDS("01.dados/srag_16-21_[pred].rds")
+srag1621_pred <- readRDS("01.data/srag_16-21_[pred].rds")
 
 
 # Data manipulation -------------------------------------------------------
@@ -180,12 +180,14 @@ d_srag_final <- d_srag_real_pred |>
   ) |> 
   relocate(class_caso_real_pred, class_caso_final, .after = last_col())
   
-saveRDS(d_srag_final, "./01.dados/srag_16-21_[final].rds")
 
+# Table and data export ---------------------------------------------------
 
-# Table export ------------------------------------------------------------
-
+# table
 gt::gtsave(tbl02, filename = "03.results/supplementary/table02.png")
+
+# data
+saveRDS(d_srag_final, "./01.dados/srag_16-21_[final].rds")
 
 
 # Clean environment -------------------------------------------------------
