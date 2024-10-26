@@ -1,12 +1,20 @@
 
 # Libraries ---------------------------------------------------------------
 
+# If these packages are not installed on your machine, install them using the command lines:
+# install.packages("dplyr")
+# install.packages("tidyr")
+# install.packages("lubridate")
+# install.packages("gtsummary")
+# install.packages("gt")
+
 #manipulation
 library(dplyr)
 library(tidyr)
 library(lubridate)
 #descriptive
 library(gtsummary)
+library(gt)
 
 
 # Data import -------------------------------------------------------------

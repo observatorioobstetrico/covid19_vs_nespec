@@ -1,6 +1,13 @@
 
 # Libraries ---------------------------------------------------------------
 
+# If these packages are not installed on your machine, install them using the command lines:
+# install.packages("dplyr")
+# install.packages("tidyr")
+# install.packages("forcats")
+# install.packages("lubridate")
+# install.packages("gtsummary")
+
 #manipulation
 library(dplyr)
 library(tidyr)

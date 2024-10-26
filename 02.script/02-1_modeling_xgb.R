@@ -135,7 +135,7 @@ set.seed(2688)
 #   control = control_grid(save_pred = TRUE)
 # )
 # 
-# saveRDS(xgb_tun, "xgb_tun.rds")
+# saveRDS(xgb_tun, "xgb_tun_xgb.rds")
 
 xgb_tun <- readRDS("02.script/xgb_tun.rds")
 

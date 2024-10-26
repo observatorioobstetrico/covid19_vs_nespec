@@ -1,8 +1,15 @@
 
 # Libraries ---------------------------------------------------------------
 
+# If these packages are not installed on your machine, install them using the command lines:
+# install.packages("dplyr")
+# install.packages("stringr")
+# install.packages("tidyr")
+# install.packages("forcats")
+# install.packages("janitor")
+
 #manipulation
-library(dplyr)
+library(dplyr) 
 library(stringr)
 library(tidyr)
 library(forcats)

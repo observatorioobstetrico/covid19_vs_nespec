@@ -1,6 +1,14 @@
 
 # Libraries ---------------------------------------------------------------
 
+#if these packages are not installed on your machine, install them using the command lines:
+# install.packages("dplyr")
+# install.packages("lubridate")
+# install.packages("tidymodels")
+# install.packages("xgboost")
+# install.packages("shapviz")
+# install.packages("ggplot2")
+
 #manipulation
 library(dplyr)
 library(lubridate)

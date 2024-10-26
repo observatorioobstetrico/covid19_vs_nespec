@@ -1,6 +1,21 @@
 
 # Libraries ---------------------------------------------------------------
 
+# If these packages are not installed on your machine, install them using the command lines:
+# install.packages("dplyr")
+# install.packages("purrr")
+# install.packages("tidyr")
+# install.packages("forcats")
+# install.packages("lubridate")
+# install.packages("janitor")
+# install.packages("geobr")
+# install.packages("sf")
+# install.packages("ggspatial")
+# install.packages("ggplot2")
+# install.packages("patchwork")
+# install.packages("gtsummary")
+# install.packages("gt")
+
 #manipulation
 library(dplyr)
 library(purrr)

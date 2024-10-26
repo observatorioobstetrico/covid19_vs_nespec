@@ -1,6 +1,18 @@
 
 # Libraries ---------------------------------------------------------------
 
+# If these packages are not installed on your machine, install them using the command lines:
+# install.packages("dplyr")
+# install.packages("lubridate")
+# install.packages("tidymodels")
+# install.packages("kknn")
+# install.packages("glmnet")
+# install.packages("discrim")
+# install.packages("sparsediscrim")
+# install.packages("kernlab")
+# install.packages("baguette")
+# install.packages("gt")
+
 #manipulation
 library(dplyr)
 library(lubridate)
