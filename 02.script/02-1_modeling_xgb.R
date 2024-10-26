@@ -1,6 +1,13 @@
 
 # Libraries ---------------------------------------------------------------
 
+# If these packages are not installed on your machine, install them using the command lines:
+# install.packages("lubridate)
+# install.packages("tidymodels")
+# install.packages("xgboost")
+# install.packages("gt")
+# install.packages("ggplot2")
+
 #manipulation
 library(lubridate)
 #model
@@ -130,7 +137,7 @@ set.seed(2688)
 # 
 # saveRDS(xgb_tun, "xgb_tun_xgb.rds")
 
-xgb_tun <- readRDS("02.script/xgb_tun_xgb.rds")
+xgb_tun <- readRDS("02.script/xgb_tun.rds")
 
 
 ## Best hyperparameters ####
