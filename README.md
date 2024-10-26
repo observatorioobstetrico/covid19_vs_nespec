@@ -1,30 +1,30 @@
-# Revelando o lado oculto da COVID-19 na população obstétrica brasileira com Síndrome Respiratória Aguda Grave: um modelo de aprendizado de máquina
+# Unveiling the Hidden Burden of COVID-19 in Brazil's obstetric population with Severe Acute Respiratory Syndrome: a machine learning model
 
-Este estudo transversal analisou dados retrospectivos de gestantes e puérperas com diagnóstico de Síndrome Respiratória Aguda Grave (SRAG) entre janeiro de 2016 e novembro de 2021. Os pacientes foram divididos em dois grupos (COVID-19 e não COVID-19) para análise comparativa, e um modelo preditivo XGBoost foi utilizado para classificar os casos sem agente etiológico definido. Os resultados sugerem que o número de casos e mortes por COVID-19 na população obstétrica foi muito superior ao documentado pelas autoridades, indicando um impacto significativo na taxa de mortalidade materna durante esse período. 
+This cross-sectional study analyzed retrospective data of pregnant and postpartum women diagnosed with Severe Acute Respiratory Syndrome (SARS) between January 2016 and November 2021. Patients were divided into two groups (COVID-19 and non-COVID-19) for comparative analysis, and a XGBoost predictive model was constructed to classify cases without a defined causative agent. The results suggest that the number of COVID-19 cases and deaths in the obstetric population was much higher than documented by authorities, indicating a significant impact on the maternal mortality ratio during this period.
 
-Fontes financiadoras: Bill & Melinda Gates Foundation, CNPq e FAPES.
+Funding: Bill & Melinda Gates Foundation, CNPq e FAPES.
 
 <br>
 
-### Dados
-SINASC - `01.dados/sinasc/`
+### Data
+SINASC - `01.data/sinasc/`
 
-SIVEP-Gripe - `01.dados/sivep-gripe/`
+SIVEP-Gripe - `01.data/sivep-gripe/`
 
-### Códigos
-Processamento, modelagem e interpretabilidade - `02.codigos/`
+### Script
+Data processing, descriptive analysis, modeling and interpretability - `02.script/`
 
-### Resultados
-Análise descritiva - `03.resultados/descritiva/`
+### Results
+Tables - `03.results/tabs/`
 
-Modelagem e interpretabilidade - `03.resultados/modelo/`
+Figures - `03.results/figs/`
 
-Mapas geográficos - `03.resultados/mapas/`
+Supplementary material - `03.results/supplementary/`
 
 ### Software
 
-R, versão 4.3.3, sob a IDE RStudio
+R, version 4.3.3, under IDE RStudio
 
-### Sistema Operacional
+### Operating System
 
-macOS Sonoma 14.5, com Processador M3 Max 14 núcleos e 36GB RAM
+macOS Sonoma 14.5, with Processor M3 Max 14-core and 36GB RAM
