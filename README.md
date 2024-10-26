@@ -2,7 +2,7 @@
 
 This cross-sectional study analyzed retrospective data of pregnant and postpartum women diagnosed with Severe Acute Respiratory Syndrome (SARS) between January 2016 and November 2021. Patients were divided into two groups (COVID-19 and non-COVID-19) for comparative analysis, and a XGBoost predictive model was constructed to classify cases without a defined causative agent. The results suggest that the number of COVID-19 cases and deaths in the obstetric population was much higher than documented by authorities, indicating a significant impact on the maternal mortality ratio during this period.
 
-Funding: Bill & Melinda Gates Foundation, CNPq e FAPES.
+Funding: Bill & Melinda Gates Foundation, CNPq and FAPES.
 
 <br>
 
